@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
+ <body>
 
-<p>Never create strings as objects.</p>
-<p>Strings and objects cannot be safely compared.</p>
+ <p>Never create strings as objects.</p>
+ <p>Strings and objects cannot be safely compared.</p>
 
-<p id="demo"></p>
+ <p id="demo"></p>
 
-<script>
-var x = "John";              // x is a string
-var y = new String("John");  // y is an object
-document.getElementById("demo").innerHTML = x===y;
-</script>
+  <script>
+   var x = "John";              // x is a string
+   var y = new String("John");  // y is an object
+   document.getElementById("demo").innerHTML = x===y;
+  </script>
 
-</body>
+ </body>
 </html>
